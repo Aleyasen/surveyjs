@@ -1,15 +1,16 @@
 language: node_js
 node_js:
-- '4'
+  - "4"
+
 before_script:
-- npm install -g gulp
-- npm install -g typescript
-- npm install -g typings
+  - npm install -g gulp
+  - npm install -g typescript
+  - npm install -g typings
 script:
-- typings install
-- gulp copyfiles
-- gulp makedist
-- gulp test_ci
+  - typings install
+  - gulp copyfiles
+  - gulp makedist
+  - gulp test_ci
 deploy:
   provider: releases
   api_key:
