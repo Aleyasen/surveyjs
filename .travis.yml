@@ -11,3 +11,7 @@ script:
   - gulp copyfiles
   - gulp makedist
   - gulp test_ci
+provider: releases
+  api_key:
+      secure: "h6k57kJHzdfSiDUnp8G3l+3pAaViTtoq/JoBxWUtty87agoeWmHaCVxqv5TF2vmFEZ63UCM2jeY7TfUZjqlNhh4GDRpxsNKY8DkjTwUIk89D5Lv8Nl8mlaoFzKIrH6Iteq9VhGezeM5mSlD/sjvk4+uN3AdvJRTXGFlPLs6VpzcdrkmukozSoV8BflR1gm2NcVXmmhSEtMmgQvIgKL8T5jGaOeb7W3jtdQ2NEvmmjTWXHTCBxfAFpT/3oVI/vXwjj5iTm+uYAzhjN06j8co/pUMR9kiLM+wGVN9CLsQcHFU0SGiV+M6Oinqh4KkPuDDUC2gJItB8fN0ItWLSz7ZSDQhcCgdlru4cNJc/BQq6Y0GYUvSAuUvG5Xientnbwbz366ZlpgK9URtrNOIDp3d0buVXZhbjqjHqd/Vo3A86eJJJ7HatrbbV8eK/jiAqBu9in8+t1qFf/AeLd9ahF76SoJTNoEnRl01eELPOew6EbMX7df68/Hew52WwyoYL+PcIgyqNTutyKGzxqjVHVfU7YzdOwZUABA1QY3pV/YG62M2RNTt6evymU+EzGOAk5f5+gLe46mHCi29wQFEPLTGSWNu6WoKwisEgFuuGBzHBJbiV2dGQYkDY86JY5RKcSywtDPHGnknvnJ9YK0N0+3vAQD854Yk0P1/kWHKHZi9PDDA="
+  
