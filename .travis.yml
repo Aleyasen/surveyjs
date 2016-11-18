@@ -11,6 +11,7 @@ script:
   - gulp copyfiles
   - gulp makedist
   - gulp test_ci
+before_deploy: "ls -l"
 deploy:
   provider: releases
   api_key:
@@ -18,7 +19,6 @@ deploy:
   file:
     - "dist/survey.ko.js"
     - "dist/survey.ko.min.js"
-    - "dist/survey.css"
   skip_cleanup: true
   on:
     tags: true
