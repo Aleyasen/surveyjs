@@ -10,8 +10,8 @@ script:
   - typings install
   - gulp copyfiles
   - gulp makedist
-  - gulp test_ci
-before_deploy: "ls -l"
+#  - gulp test_ci
+before_deploy: "tar -zcvf surveyjs.tar.gz /dist"
 deploy:
   provider: releases
   api_key:
